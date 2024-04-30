@@ -1,0 +1,102 @@
+/* -----------------
+Tabla de contenidos:
+--------------------
+1. Fuente ......................... 10
+2. Variables ...................... 13
+3. Estilos generales .............. 32
+-------------------- */
+
+/* ----- Fuente ----- */
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+/* ----- Variables ----- */
+:root {
+  /* colores */
+  --color: #181a1b;
+
+  /* configuracion */
+  --fuente: "Montserrat", sans-serif;
+  --ft-size: 1rem;
+  --l-height: 22px;
+}
+
+/* ----------------------------- */
+/* ----- Estilos generales ----- */
+/* ----------------------------- */
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--fuente);
+  background: #202020;
+  color: var(--color);
+}
+
+.card {
+
+  text-align: center;
+  width: 200px;
+  padding: 0%;
+  padding-top: 20px;
+  background-color: #444;
+  border-radius: 10px;
+
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+}
+
+h3 {
+  color: #fff;
+  padding: 0%;
+  margin: 0%;
+}
+
+p {
+  padding: 0%;
+  color: #fff;
+  font-size: small;
+}
+
+.container-ciudad {
+  display: flex;
+  justify-content: center;
+}
+
+.ciudad {
+  background-color: #313030;
+  border-radius: 10px;
+  text-align: center;
+  width: 60%;
+
+}
+
+.social-icons {
+
+  margin-top: 0%;
+  background-color: #1e1e1e;
+  height: 60px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.social-icons a i:hover {
+  padding: 3px 8px;
+  background: #444;
+
+}
