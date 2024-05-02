@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Nombre del autor">
-    <meta name="title" content="Título del proyecto">
-    <meta name="description" content="Breve descripción del contenido del proyecto">
+    <meta name="author" content="Sebastian Bravo">
+    <meta name="title" content="02-blog-preview-card">
+    <meta name="description" content="Creación de una tarjeta vista previa para un blog, usando HTML y CSS">
     <!-- Boxicons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- Normalize -->
@@ -20,20 +20,19 @@
 </head>
 
 <body>
-
-    <h1>Frontend Club</h1>
-    <blockquote>
-        No te conformes con hacer las cosas bien, sino, busca la excelencia en todo lo que haces. Así te diferenciarás
-        de los demás y lograrás el éxito.
-    </blockquote>
-
-    <style>
-        h1,
-        blockquote {
-            text-align: center;
-        }
-    </style>
-
+    <div class="card">
+        <img src="./images/illustration-article.svg" alt="illustration-article" class="illustration-article">
+        <h4 class="learning">Learnig</h4>
+        <p class="fecha-pub">Published 01 May 2024</p>
+        <h3 class="titulo">HTML & CSS foundations</h3>
+        <p class="parrafo"> These languages are the backbone of <br> every website, defining structure,<br> content, and
+            presentation
+        </p>
+        <div class="footer-card">
+            <img src="./images/avatar.png" alt="Foto de perfil" class="profile-image">
+            <h4 class="autor">Sebastian Bravo</h4>
+        </div>
+    </div>
 </body>
 
 </html>
