@@ -1,6 +1,6 @@
 # Nombre del proyecto - 100daysofprojects
 
-[Nombre del proyecto] construido con HTML, CSS y JavaScript, para mejorar nuestras habilidades de codificación. Este proyecto es parte del desafío #100daysofprojects promovido por [Frontend Club](https://www.facebook.com/frontendclubfb).
+[] construido con HTML, CSS y JavaScript, para mejorar nuestras habilidades de codificación. Este proyecto es parte del desafío #100daysofprojects promovido por [Frontend Club](https://www.facebook.com/frontendclubfb).
 
 ![Screenshot](https://iharsh234.github.io/WebApp/images/demo/demo_landing.JPG)
 
